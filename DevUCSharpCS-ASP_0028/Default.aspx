@@ -14,13 +14,13 @@
             <asp:TextBox ID="quantityTextBox" runat="server"></asp:TextBox>
             <br />
             <br />
-            <asp:RadioButton ID="fromCupsRadio" runat="server" Text="Cups" />
+            <asp:RadioButton ID="fromCupsRadio" runat="server" AutoPostBack="True" Text="Cups" />
             <br />
-            <asp:RadioButton ID="fromPintsRadio" runat="server" Text="Pints" />
+            <asp:RadioButton ID="fromPintsRadio" runat="server" AutoPostBack="True" Text="Pints" />
             <br />
-            <asp:RadioButton ID="fromQuartsRadio" runat="server" Text="Quarts" />
+            <asp:RadioButton ID="fromQuartsRadio" runat="server" AutoPostBack="True" Text="Quarts" />
             <br />
-            <asp:RadioButton ID="fromGallonsRadio" runat="server" Text="Gallons" />
+            <asp:RadioButton ID="fromGallonsRadio" runat="server" AutoPostBack="True" Text="Gallons" />
             <br />
             <br />
             <asp:Label ID="resultLabel" runat="server"></asp:Label>
