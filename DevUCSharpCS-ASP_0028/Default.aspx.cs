@@ -13,5 +13,25 @@ namespace DevUCSharpCS_ASP_0028
         {
 
         }
+
+        protected void fromCupsRadio_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void fromPintsRadio_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void fromQuartsRadio_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void fromGallonsRadio_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
